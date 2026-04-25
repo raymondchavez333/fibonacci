@@ -3,8 +3,8 @@ function fibonacci(num){
     let array = [0, 1];
 
     for(let i = 2; i < 4; i++){
-        let minus1 = array[1];
-        let minus2 = array[0];
+        let minus1 = array[i-1];
+        let minus2 = array[i-2];
 
         let currentNum = minus1 + minus2;
 
