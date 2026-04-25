@@ -2,7 +2,7 @@ function fibonacci(num){
 
     let array = [0, 1];
 
-    for(let i = 2; i < 20; i++){
+    for(let i = 2; i < 25; i++){
         let minus1 = array[i-1];
         let minus2 = array[i-2];
 
