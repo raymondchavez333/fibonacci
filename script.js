@@ -11,7 +11,9 @@ function fibonacci(num){
         array.push(currentNum);
     }
 
-    return array;
+    let nthMember = array[num];
+
+    return nthMember;
 }
 
-console.log(fibonacci(3));
+console.log(fibonacci(25));
