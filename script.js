@@ -1,4 +1,5 @@
 function fibonacci(num){
 
-    let array = [1, 1, 2];
+    let array = [0, 1];
+
 }
