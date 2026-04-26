@@ -1,4 +1,5 @@
 function fibonacci(num){
+    num = Number(num);
 
     if(num < 0){
         return "OOPS";
