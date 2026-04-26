@@ -21,4 +21,4 @@ function fibonacci(num){
     return nthMember;
 }
 
-console.log(fibonacci(-25));
+console.log(fibonacci("25"));
