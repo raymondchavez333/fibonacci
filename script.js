@@ -1,5 +1,9 @@
 function fibonacci(num){
 
+    if(num < 0){
+        return "OOPS";
+    }
+
     let array = [0, 1];
 
     for(let i = 2; i < 26; i++){
@@ -16,4 +20,4 @@ function fibonacci(num){
     return nthMember;
 }
 
-console.log(fibonacci(0));
+console.log(fibonacci(-25));
